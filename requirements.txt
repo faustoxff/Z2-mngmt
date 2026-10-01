@@ -1,0 +1,7 @@
+# La app usa Tkinter (stdlib) para la interfaz, psycopg2-binary para hablar con Neon/Postgres,
+# y python-docx para completar la plantilla de Word (botón "Documento").
+psycopg2-binary>=2.9
+python-docx>=1.1
+
+# Solo se necesita para generar el .exe:
+pyinstaller>=6.0
